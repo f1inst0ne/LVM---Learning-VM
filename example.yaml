@@ -1,0 +1,30 @@
+---
+commands:
+  - write_const:
+    dest_addr: 0
+    value: 10
+  - write_const:
+    dest_addr: 1
+    value: 20
+  - write_const:
+    dest_addr: 2
+    value: 30
+  - write_const:
+    dest_addr: 3
+    value: 40
+  - write_const:
+    dest_addr: 4
+    value: 50
+  - write_const:
+    dest_addr: 5
+    value: 2
+  - read:
+    dest_addr: 7
+    source_addr: 5
+  - write_values:
+    source_addr: 1
+    dest_addr: 8
+  - un_sub:
+    dest_addr: 6
+    source_addr: 0
+
