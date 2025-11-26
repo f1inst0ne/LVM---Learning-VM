@@ -23,7 +23,6 @@ commands:
   - write_const:
     dest_addr: 1
     value: 20
-  - write_const:
 """.strip()
 
 TEMPLATE = """
